@@ -98,20 +98,26 @@ a {
     gap: 20px;
 }
 
+
 .one {
     display: flex;
     align-items:flex-start;
     justify-content: space-between;
-    padding: 80px 120px 120px;
+    padding: 0 120px;
     gap: 24px;
-}
+    flex-wrap: wrap;
+}   
 
 .one-left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 480px;
+}
+
+.hero-sub {
+    padding: 12px 0 16px;
 }
 
 .one-right-container {
