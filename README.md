@@ -1,2 +1,5 @@
 # website-project
-odin project website
+The Odin Project Website
+
+
+This website will demonstrate skills learned in html and css including flexbox arrangement
