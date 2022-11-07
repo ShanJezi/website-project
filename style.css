@@ -116,7 +116,7 @@ body {
     flex: 1;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 120px;
     gap: 24px;
     flex-wrap: wrap;
@@ -179,18 +179,19 @@ body {
 .three {
     flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.quote {
+.three-container {
     width: 800px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .author {
     margin-left: auto;
-    margin-right: 160px;
 }
 
 .four {
@@ -202,7 +203,7 @@ body {
 }
 
 .four-container {
-    padding: 40px 80px;
+    padding: 40px 120px;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -217,4 +218,11 @@ button {
 
 .four-button {
     border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
 }
