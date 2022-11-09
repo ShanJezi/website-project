@@ -113,13 +113,13 @@ body {
 }
 
 .one {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 0px 120px;
     gap: 24px;
-    flex-wrap: wrap;
+    height: 360px;
 }   
 
 .one-left {
@@ -136,6 +136,7 @@ body {
 
 .one-right-container {
     display: flex;
+    flex: 1 1 auto;
     align-items: center;
     justify-content: center;
     height: 220px;
@@ -144,11 +145,12 @@ body {
 }
 
 .two {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 360px;
 }
 
 .two-content {
@@ -177,10 +179,11 @@ body {
 }
 
 .three {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 360px;
 }
 
 .three-container {
@@ -195,11 +198,12 @@ body {
 }
 
 .four {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    height: 360px;
 }
 
 .four-container {
